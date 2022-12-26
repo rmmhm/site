@@ -1,0 +1,15 @@
+h1 {
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    column-gap: 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
