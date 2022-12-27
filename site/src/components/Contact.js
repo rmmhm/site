@@ -28,9 +28,10 @@ function Contact() {
                         </Fab>
                     </a>
                 </section>
-                <p>
+                <p> 
+                    View source on
                     <a href="https://www.github.com/rmmhm/site" target="_blank" rel="noopener noreferrer">
-                        View Source
+                        Github
                     </a>     
                 </p>
             </MDBContainer>
