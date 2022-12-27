@@ -14,7 +14,6 @@ function Contact() {
         <MDBFooter className='bg-light text-center'>
             <MDBContainer className='p-4 pb-0'>
                 <h1>Contact Me</h1>
-                <br></br>
                 <section className='mb-4'>
                     <a href="https://www.linkedin.com/in/rmmhm" target="_blank" rel="noopener noreferrer">
                         <Fab color="primary" variant='extended'>
@@ -29,6 +28,11 @@ function Contact() {
                         </Fab>
                     </a>
                 </section>
+                <p>
+                    <a href="https://www.github.com/rmmhm/site" target="_blank" rel="noopener noreferrer">
+                        View Source
+                    </a>     
+                </p>
             </MDBContainer>
         </MDBFooter>
     )

@@ -10,6 +10,11 @@ section {
     column-gap: 10px;
 }
 
+p {
+    justify-content: center;
+    text-align: center;
+}
+
 a:link {
     text-decoration: none;
 }
