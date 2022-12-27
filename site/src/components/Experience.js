@@ -11,14 +11,16 @@ function Experience() {
             <img className="d-block w-100 exp-bg" src={bg3} alt="aqua" />
             <Slide right duration={2000}>
                 <div className='exp-text'>
-                    <h1 className='heading'>
-                        Experience
-                    </h1>
-                    <p>
-                        test1
-                        test2
-                        test3
-                    </p>
+                    <Card>
+                        <h1 className='heading'>
+                            Experience
+                        </h1>
+                        <p>
+                            test1
+                            test2
+                            test3
+                        </p>
+                    </Card>
                 </div>
             </Slide>
         </div>

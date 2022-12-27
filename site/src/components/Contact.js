@@ -1,8 +1,5 @@
 import React from 'react';
 import './Contact.css';
-import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 import Fab from '@mui/material/Fab'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
