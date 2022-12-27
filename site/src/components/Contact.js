@@ -29,7 +29,7 @@ function Contact() {
                     </a>
                 </section>
                 <p> 
-                    View source on 
+                    View source on <></>
                     <a href="https://www.github.com/rmmhm/site" target="_blank" rel="noopener noreferrer">
                         Github
                     </a>     
