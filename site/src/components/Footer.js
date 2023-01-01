@@ -1,5 +1,5 @@
 import React from 'react';
-import './Contact.css';
+import './Footer.css';
 import Fab from '@mui/material/Fab'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -9,10 +9,10 @@ import {
     MDBContainer,
 } from 'mdb-react-ui-kit';
 
-function Contact() {
+function Footer() {
     return (
         <MDBFooter className='bg-light text-center'>
-            <MDBContainer className='p-4 pb-0'>
+            <MDBContainer className='p-4 pb-0' style={{flexDirection: 'column'}}>
                 <h1>Contact Me</h1>
                 <section className='mb-4'>
                     <a href="https://www.linkedin.com/in/rmmhm" target="_blank" rel="noopener noreferrer">
@@ -39,4 +39,4 @@ function Contact() {
     )
 }
 
-export default Contact;
+export default Footer;
