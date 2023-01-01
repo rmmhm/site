@@ -28,7 +28,7 @@ function NavBar() {
             className={blur ? "sticky" : "navbar"}
         >
             <Container style={{flexDirection: 'row'}}>
-                <Navbar.Brand href='/' className='d-flex'>
+                <Navbar.Brand href='/site' className='d-flex'>
                     RM
                 </Navbar.Brand>
                 <Navbar.Toggle
@@ -44,22 +44,22 @@ function NavBar() {
                 <Navbar.Collapse id='responsive-navbar-nav'>
                     <Nav className='ms-auto' defaultActiveKey='#home'>
                         <Nav.Item>
-                            <Nav.Link as={Link} to='/' onClick={() => updateExpand(false)}>
+                            <Nav.Link as={Link} to='/site' onClick={() => updateExpand(false)}>
                                 Home
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link as={Link} to='/about' onClick={() => updateExpand(false)}>
+                            <Nav.Link as={Link} to='/site/about' onClick={() => updateExpand(false)}>
                                 About
                             </Nav.Link>
                         </Nav.Item>
                          <Nav.Item>
-                            <Nav.Link as={Link} to='/projects' onClick={() => updateExpand(false)}>
+                            <Nav.Link as={Link} to='/site/projects' onClick={() => updateExpand(false)}>
                                 Projects
                             </Nav.Link>
                          </Nav.Item>
                          <Nav.Item>
-                            <Nav.Link as={Link} to='/resume' onClick={() => updateExpand(false)}>
+                            <Nav.Link as={Link} to='/site/resume' onClick={() => updateExpand(false)}>
                                 Resume
                             </Nav.Link>
                          </Nav.Item>

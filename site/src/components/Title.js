@@ -11,6 +11,12 @@ function Title() {
                 <div className = "name">
                     Ryan Ma
                 </div>
+                <p>
+                    <a style={{textAlign: 'center'}} href='mailto:ryanma22303@gmail.com' target='_blank'>
+                        ryanma22303@gmail.com
+                    </a>   
+                </p>
+
             </div>
         </div>
     )
