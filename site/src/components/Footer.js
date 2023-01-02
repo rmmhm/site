@@ -14,7 +14,6 @@ function Footer() {
         <MDBFooter className='text-center footer' style={{backgroundColor: 'white'}}>
             <MDBContainer className='p-4 pb-0' style={{flexDirection: 'column'}}>
                 <h1>Contact Me</h1>
-                <br />
                 <section className='mb-4'>
                     <a href="https://www.linkedin.com/in/rmmhm" target="_blank" rel="noopener noreferrer">
                         <Fab color='primary' variant='extended'>

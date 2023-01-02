@@ -1,30 +1,44 @@
 import React from 'react';
 import "./Projects.css";
-import Slide from 'react-reveal/Slide';
-import Card from '@mui/material/Card';
+import ProjectCard from '../components/ProjectCard';
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
-import bg3 from "../assets/background.png"
+import bg from "../assets/background.jpg"
+import { Parallax } from 'react-parallax';
 
-function Experience() {
+function Projects() {
     return (
-        <div className='pro-container'>
-            <img className="d-block w-100 pro-bg" src={bg3} alt="aqua" />
-            <Slide right duration={2000}>
-                <div className='pro-text'>
-                    <Card>
-                        <h1 className='heading'>
-                            Experience
-                        </h1>
-                        <p>
-                            test1
-                            test2
-                            test3
-                        </p>
-                    </Card>
-                </div>
-            </Slide>
+        <div className='proj-cont'>
+            <img src={bg} className='d-block w-100 projects-bg' alt='blue' />
+            <div className='proj-card-cont'>
+                <Container>  
+                    <h1>My recent work</h1>
+                    <br />
+                    <Row>
+                        <Col>
+                            <ProjectCard />
+                        </Col>
+                        <Col>
+                            <ProjectCard />
+                        </Col>
+                        <Col>
+                            <ProjectCard />
+                        </Col>
+                    </Row>
+                    {/* <Row>
+                        <Col>
+                            <ProjectCard />
+                        </Col>
+                        <Col>
+                            <ProjectCard />
+                        </Col>
+                    </Row> */}
+                </Container>
+            </div>
         </div>
     );
 }
 
-export default Experience;
+export default Projects;

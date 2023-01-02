@@ -5,13 +5,14 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import bg2 from "../assets/background.png"
+import bg2 from "../assets/background.jpg"
+import phold from "../assets/placeholder.jpg"
 
 function About() {
     return (
         <div className='about-container'>
             <img className='d-block w-100 about-bg' src={bg2} alt='blue' />
-            <Slide left>
+            <Slide left duration={1750}>
                 <div className='about-txt-container'>
                     <Container>
                         <Row>
@@ -19,6 +20,7 @@ function About() {
                                 <h1>
                                     Who am I?
                                 </h1>
+                                <br />
                                 <p className='about-txt'>
                                     I am a 2nd-year CS student at Georgia Tech, specializing in artificial intelligence and systems+architecture
                                     <br />
@@ -30,7 +32,7 @@ function About() {
                                 </p>
                             </Col>
                             <Col className='dog-img'>
-                                Dog Image
+                                <img src={phold} className='img-fluid' alt='dog' />
                             </Col>
                         </Row>
                     </Container>

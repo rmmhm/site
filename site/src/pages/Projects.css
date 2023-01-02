@@ -1,20 +1,29 @@
-.pro-container {
+.proj-cont {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.pro-bg {
+.proj-bg {
     height: 100vh;
     width: 100%;
     object-fit: cover;
 }
 
-.pro-text {
+.proj-text {
     position: absolute;
     margin: auto;
 }
 
 .heading {
     font-size: 80px;
+}
+
+.proj-card-cont {
+    position: absolute;
+    margin: auto;
+}
+
+.h1 {
+    color: #344966;
 }

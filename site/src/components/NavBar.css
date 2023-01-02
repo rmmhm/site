@@ -20,7 +20,7 @@
 
 .navbar-toggler span {
     display: block !important;
-    background-color:white !important;
+    background-color: #344966  !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -67,7 +67,7 @@
     .navbar {
         padding: 1rem 2rem !important;
         font-size: 1.4rem !important;
-        background-color: white !important;
+        background-color: white  !important;
     }
 
     .navbar-nav .nav-item a::after {
@@ -80,7 +80,7 @@
 }
 
 .navbar-nav .nav-link {
-    color: white !important;
+    color: #344966 !important;
     padding-right: 1rem !important;
     padding-left: 1rem !important;
 }
@@ -114,7 +114,7 @@
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: white;
+    background: white ;
     bottom: 1px;
     left: 0;
     z-index: -1;

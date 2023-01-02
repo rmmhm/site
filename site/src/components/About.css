@@ -13,8 +13,10 @@
 .about-txt-container {
     position: absolute;
     margin: auto;
+    color: #0d1821;
 }
 
 .about-txt {
     text-align: left;
+    font-size: 2em;
 }

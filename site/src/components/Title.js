@@ -1,13 +1,15 @@
 import React from 'react';
 import './Title.css'
 
-import bg1 from "../assets/background.png";
+import bg1 from "../assets/background.jpg";
+import phold from "../assets/placeholder.jpg";
 
 function Title() {
     return (
         <div className = "title-container">
             <img className="d-block w-100 title-bg" src={bg1} alt="sky" />
             <div className = 'title-txt'>
+                <img src={phold} className='title-logo' />
                 <div className = "name">
                     Ryan Ma
                 </div>
