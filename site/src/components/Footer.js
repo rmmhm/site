@@ -11,18 +11,18 @@ import {
 
 function Footer() {
     return (
-        <MDBFooter className='bg-secondary text-center footer'>
+        <MDBFooter className='text-center footer' style={{backgroundColor: '#034C9D'}}>
             <MDBContainer className='p-4 pb-0' style={{flexDirection: 'column'}}>
                 <h1>Contact Me</h1>
                 <section className='mb-4'>
                     <a href="https://www.linkedin.com/in/rmmhm" target="_blank" rel="noopener noreferrer">
-                        <Fab color="primary" variant='extended'>
+                        <Fab color='success' variant='extended'>
                             <LinkedInIcon sx = {{ mr: 1}} />
                             LinkedIn
                         </Fab>
                     </a>
                     <a href="https://www.github.com/rmmhm" target="_blank" rel="noopener noreferrer">
-                        <Fab color="primary" variant='extended'>
+                        <Fab color='success' variant='extended'>
                             <GitHubIcon sx = {{ mr: 1}} />
                             GitHub
                         </Fab>
