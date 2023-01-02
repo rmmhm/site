@@ -29,7 +29,7 @@ function About() {
                                     I'm always looking to learn new technologies and work on cool stuff!
                                 </p>
                             </Col>
-                            <Col>
+                            <Col className='dog-img'>
                                 Dog Image
                             </Col>
                         </Row>
