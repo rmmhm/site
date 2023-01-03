@@ -1,44 +1,34 @@
-import React from 'react';
+import React from "react";
 import "./Projects.css";
-import ProjectCard from '../components/ProjectCard';
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import ProjectCard from "../components/ProjectCard";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
-import bg from "../assets/background.jpg"
-import { Parallax } from 'react-parallax';
+import bg from "../assets/background.jpg";
+import { Parallax } from "react-parallax";
 
 function Projects() {
-    return (
-        <div className='proj-cont'>
-            <img src={bg} className='d-block w-100 projects-bg' alt='blue' />
-            <div className='proj-card-cont'>
-                <Container>  
-                    <h1>My recent work</h1>
-                    <br />
-                    <Row>
-                        <Col>
-                            <ProjectCard />
-                        </Col>
-                        <Col>
-                            <ProjectCard />
-                        </Col>
-                        <Col>
-                            <ProjectCard />
-                        </Col>
-                    </Row>
-                    {/* <Row>
-                        <Col>
-                            <ProjectCard />
-                        </Col>
-                        <Col>
-                            <ProjectCard />
-                        </Col>
-                    </Row> */}
-                </Container>
-            </div>
-        </div>
-    );
+  return (
+    <div className="proj-cont">
+      <Container className="proj-card-cont">
+        <Container>
+          <h1>My recent work</h1>
+          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="proj-card">
+              <ProjectCard />
+            </Col>
+            <Col md={4} className="proj-card">
+              <ProjectCard />
+            </Col>
+            <Col md={4} className="proj-card">
+              <ProjectCard />
+            </Col>
+          </Row>
+        </Container>
+      </Container>
+    </div>
+  );
 }
 
 export default Projects;

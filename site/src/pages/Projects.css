@@ -1,29 +1,27 @@
 .proj-cont {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.proj-bg {
-    height: 100vh;
-    width: 100%;
-    object-fit: cover;
-}
-
-.proj-text {
-    position: absolute;
-    margin: auto;
-}
-
-.heading {
-    font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../assets/background.jpg);
 }
 
 .proj-card-cont {
-    position: absolute;
-    margin: auto;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 30px;
 }
 
 .h1 {
-    color: #344966;
+  color: #344966;
+}
+
+.proj-card {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: auto;
 }

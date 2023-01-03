@@ -1,22 +1,22 @@
 .about-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-bg {
-    height: 100vh;
-    width: 100%;
-    object-fit: cover;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
 }
 
 .about-txt-container {
-    position: absolute;
-    margin: auto;
-    color: #0d1821;
+  position: relative;
+  margin: auto;
+  color: #0d1821;
 }
 
 .about-txt {
-    text-align: left;
-    font-size: 2em;
+  text-align: left;
+  font-size: 2em;
 }

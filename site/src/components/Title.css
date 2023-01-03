@@ -1,26 +1,7 @@
 .title-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.title-bg {
-    height: 100vh;
-    width: 100%;
-    object-fit: cover;
-}
-
-.title-logo {
-    width: 30%;
-    height: 30%;
-}
-
-.title-txt {
-    position: absolute;
-    margin: auto;
-}
-
-.name {
-    font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
