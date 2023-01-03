@@ -1,22 +1,16 @@
-.about-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-bg {
-  height: 100vh;
-  width: 100%;
-  object-fit: cover;
-}
-
-.about-txt-container {
+.about-cont {
   position: relative;
-  margin: auto;
-  color: #0d1821;
+  padding-bottom: 70px;
+  padding-top: 70px;
 }
 
 .about-txt {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.about-p {
+  padding-top: 50px;
   text-align: left;
-  font-size: 2em;
 }

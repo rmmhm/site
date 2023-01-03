@@ -1,23 +1,23 @@
-import React, {useEffect} from 'react';
-import './App.css';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Home from './pages/Home';
-import Projects from './pages/Projects';
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import React, { useEffect } from "react";
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   useEffect(() => {
     document.title = "Ryan Ma";
+    document.body.style = "background: #5998c5;";
   }, []);
   return (
     <Router>
       <NavBar />
       <Routes>
-        <Route path = '/site' element = {<Home />}></Route>
-        <Route path = '/site/projects' element ={<Projects />}></Route>
+        <Route path="/site" element={<Home />}></Route>
+        <Route path="/site/projects" element={<Projects />}></Route>
       </Routes>
       <Footer />
     </Router>

@@ -9,14 +9,14 @@ import phold from "../assets/placeholder.jpg";
 
 function About() {
   return (
-    <Slide left duration={1750}>
-      <div className="about-txt-container">
-        <Container>
+    <div className="about-cont">
+      <Slide left duration={1750}>
+        <Container fluid className="about-txt-cont">
           <Row>
-            <Col>
+            <Col className="about-txt">
               <h1>Who am I?</h1>
               <br />
-              <p className="about-txt">
+              <p className="about-p">
                 I am a 2nd-year CS student at Georgia Tech, specializing in
                 artificial intelligence and systems+architecture
                 <br />
@@ -34,8 +34,8 @@ function About() {
             </Col>
           </Row>
         </Container>
-      </div>
-    </Slide>
+      </Slide>
+    </div>
   );
 }
 
