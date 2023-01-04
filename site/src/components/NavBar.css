@@ -65,7 +65,7 @@
 
 @media (max-width: 767px) {
   .navbar {
-    padding: 1rem 2rem !important;
+    padding: 0.25rem 2rem !important;
     font-size: 1.4rem !important;
     background-color: #0d1821 !important;
   }
@@ -126,6 +126,5 @@
 }
 
 .logo {
-  /* height: 5em !important; */
-  width: 5em !important;
+  width: 5em;
 }

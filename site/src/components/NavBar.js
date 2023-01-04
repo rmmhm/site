@@ -12,7 +12,7 @@ function NavBar() {
   const [blur, updateBlur] = useState(false);
 
   function showNavbar() {
-    if (window.scrollY >= 20) {
+    if (window.scrollY >= 40) {
       updateBlur(true);
     } else {
       updateBlur(false);

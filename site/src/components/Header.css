@@ -1,24 +1,26 @@
-.header-cont {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100vw;
-  margin-top: 10vh;
-  height: 100vh;
-  color: white;
+#home {
+  position: relative;
 }
 
-.header-txt-cont {
+.app__header {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+
+  padding: 20rem 2rem 0rem;
+}
+
+.header-cont .row {
   position: relative;
   text-align: center;
-  padding-top: 25vh;
 }
 
-.header-txt-cont h1 {
+.header-cont h1 {
   font-size: 4em;
 }
 
-.header-txt-cont h2 {
+.header-cont h2 {
   font-size: 2em;
 }
 

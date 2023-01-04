@@ -1,13 +1,10 @@
 import React from "react";
 import "./Header.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Container, Row, Col } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
 
 import IconButton from "@mui/material/IconButton";
-import GitHub from "@mui/icons-material/GitHub";
-import LinkedIn from "@mui/icons-material/LinkedIn";
+import { GitHub, LinkedIn } from "@mui/icons-material";
 
 const icons = [
   {
@@ -24,8 +21,8 @@ const icons = [
 
 function Header() {
   return (
-    <div className="header-cont" id="home">
-      <Container className="header-txt-cont">
+    <div className="app__header app__flex">
+      <Container className="header-cont">
         <Row>
           <Fade bottom>
             <h1>Ryan Ma</h1>
