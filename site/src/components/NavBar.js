@@ -5,6 +5,8 @@ import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 
+import logo from "../assets/logo.png";
+
 function NavBar() {
   const [expand, updateExpand] = useState(false);
   const [blur, updateBlur] = useState(false);
@@ -28,7 +30,7 @@ function NavBar() {
     >
       <Container style={{ flexDirection: "row" }}>
         <Navbar.Brand href="/site" className="d-flex">
-          RM
+          <img src={logo} className="img-fluid logo" alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -45,7 +47,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/site"
+                to="#home"
                 onClick={() => updateExpand(false)}
               >
                 Home
@@ -54,7 +56,16 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/site/projects"
+                to="#about"
+                onClick={() => updateExpand(false)}
+              >
+                About
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="#projects"
                 onClick={() => updateExpand(false)}
               >
                 Projects
@@ -63,7 +74,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/site/resume"
+                to="#resume"
                 onClick={() => updateExpand(false)}
               >
                 Resume

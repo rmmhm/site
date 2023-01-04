@@ -1,0 +1,31 @@
+.header-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  margin-top: 10vh;
+  height: 100vh;
+  color: white;
+}
+
+.header-txt-cont {
+  position: relative;
+  text-align: center;
+  padding-top: 25vh;
+}
+
+.header-txt-cont h1 {
+  font-size: 4em;
+}
+
+.header-txt-cont h2 {
+  font-size: 2em;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
