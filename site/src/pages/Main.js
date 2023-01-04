@@ -1,19 +1,16 @@
 import React from "react";
 import NavBar from "../components/NavBar";
-import Header from "../components/Header";
-import About from "../components/About";
+import { Header, About, Projects, Resume } from "../container";
 import "./Main.css";
 
 function Main() {
   return (
-    <div>
+    <div className="app-container">
       <NavBar />
-      <div id="home" className="app__container">
-        <Header />
-      </div>
-      <div id="about" className="app__container">
-        <About />
-      </div>
+      <Header />
+      <About />
+      <Projects />
+      <Resume />
     </div>
   );
 }

@@ -1,5 +1,10 @@
+html {
+  min-height: 100%;
+}
+
 body {
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   font-family: 300 11px/1.4 "Roboto", sans-serif;
   overflow: hidden;
   display: block;

@@ -4,8 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function About() {
   return (
-    <div className="app__about app__flex">
-      <Container className="about-cont">
+    <div className="about-container">
+      <Container className="about-content">
         <Row>
           <Col>
             <h1>About Text</h1>

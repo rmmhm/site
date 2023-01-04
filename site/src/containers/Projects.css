@@ -1,0 +1,15 @@
+.proj-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.proj-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}

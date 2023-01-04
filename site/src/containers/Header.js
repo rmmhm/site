@@ -21,8 +21,8 @@ const icons = [
 
 function Header() {
   return (
-    <div className="app__header app__flex">
-      <Container className="header-cont">
+    <div className="header-container">
+      <Container fluid>
         <Row>
           <Fade bottom>
             <h1>Ryan Ma</h1>
@@ -60,6 +60,7 @@ function Header() {
             </Fade>
           </Col>
         </Row>
+        <div className="header-icons"></div>
       </Container>
     </div>
   );
