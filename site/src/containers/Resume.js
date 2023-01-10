@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./Resume.css";
-import Container from "raect-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import { Document, Page } from "@react-pdf";
-import pdf from "../assets/2023 resume.pdf";
-const resumePath =
-  "https://raw.githubusercontent.com/rmmhm/site/site/src/assets/2023_resume.pdf";
+import { Container, Row, Col } from "react-bootstrap";
+import { Document, Page, pdfjs } from "react-pdf";
+import pdf from "../assets/2023resume.pdf";
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function Resume() {
   const [width, setWidth] = useState(1200);
@@ -19,7 +17,7 @@ function Resume() {
       <Container className="resume-content">
         <h1>Resume</h1>
         <Row>
-          <Document file={resumePath} className="d-flex justify-content-center">
+          <Document file={pdf} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
