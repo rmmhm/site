@@ -13,3 +13,22 @@
   align-items: center;
   text-align: center;
 }
+
+.about-content h1 {
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+.about-content p {
+  text-align: left;
+  font-size: 2rem;
+}
+
+.about-content h2 {
+  text-align: left;
+}
+
+.about-content ul {
+  text-align: left !important;
+  list-style-position: inside !important;
+}

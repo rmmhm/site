@@ -11,10 +11,8 @@ function ProjectCard(props) {
     <Card style={{ backgroundColor: "#0d1821" }} className="project-card-view">
       <Card.Img variant="top" src={phol} alts="card-img" />
       <Card.Body>
-        <Card.Title>Project Title</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
-          This is where I will describe the project
-        </Card.Text>
+        <Card.Title>{props.title}</Card.Title>
+        <Card.Text style={{ textAlign: "justify" }}>{props.desc}</Card.Text>
         <IconButton
           key={"proj"}
           sx={{

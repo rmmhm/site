@@ -7,15 +7,24 @@ function Projects() {
   return (
     <div className="proj-container">
       <Container className="proj-content">
-        <Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="proj-card">
-            <ProjectCard />
+            <ProjectCard
+              title="Project Yes"
+              desc="This is the description for Project Yes"
+            />
           </Col>
           <Col md={4} className="proj-card">
-            <ProjectCard />
+            <ProjectCard
+              title="Project No"
+              desc="This is the description for Project No"
+            />
           </Col>
           <Col md={4} className="proj-card">
-            <ProjectCard />
+            <ProjectCard
+              title="Project Maybe"
+              desc="This is the description for Project Maybe"
+            />
           </Col>
         </Row>
       </Container>

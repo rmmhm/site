@@ -1,11 +1,10 @@
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(89, 152, 197, 0.5);
+  /* box-shadow: 0 4px 5px 3px rgba(89, 152, 197, 0.5); */
   color: white;
   background-color: #0d1821;
   opacity: 0.9;
   transition: all 0.5s ease 0s;
   height: 100%;
-  width: 25rem;
 }
 
 .project-card:hover {
