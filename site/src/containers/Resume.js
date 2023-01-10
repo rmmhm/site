@@ -7,11 +7,17 @@ import pdf from "../assets/2023resume.pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function Resume() {
-  const [width, setWidth] = useState(1200);
-
+  const [width, setWidth] = useState(1000);
+  function handleResize() {
+    if (window.innerWidth <= 768) {
+      setWidth(750);
+    } else {
+      setWidth(1000);
+    }
+  }
   useEffect(() => {
-    setWidth(window.innerWidth);
-  }, []);
+    window.addEventListener("resize", handleResize);
+  });
 
   function onButtonClick() {
     fetch("../assets/2023resume.pdf").then((response) => {
@@ -46,7 +52,7 @@ function Resume() {
         <br />
         <Row className="resume-content">
           <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={1} scale={width > 768 ? 1.7 : 1.2} />
           </Document>
         </Row>
       </Container>

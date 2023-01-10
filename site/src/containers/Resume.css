@@ -11,10 +11,12 @@
 }
 
 @media (max-width: 767px) {
-  .react-pdf__Page__canvas {
-    padding-top: 100px;
-    width: 100% !important;
-    height: 100% !important;
-    transform: scale(1.5);
+  .resume-content {
+    padding-left: 15px;
+    padding-right: 15px;
   }
+}
+
+.btn-custom {
+  background-color: #0d1821;
 }
