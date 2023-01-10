@@ -4,12 +4,10 @@ import IconButton from "@mui/material/IconButton";
 import { GitHub } from "@mui/icons-material";
 import "./ProjectCard.css";
 
-import phol from "../assets/placeholder.jpg";
-
 function ProjectCard(props) {
   return (
     <Card style={{ backgroundColor: "#0d1821" }} className="project-card-view">
-      <Card.Img variant="top" src={phol} alts="card-img" />
+      <Card.Img variant="top" src={props.img} alts="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>{props.desc}</Card.Text>
@@ -25,7 +23,7 @@ function ProjectCard(props) {
               margin: "0.5rem",
             },
           }}
-          href={"https://github.com/rmmhm"}
+          href={props.url}
           target={"_blank"}
           rel={"noopener noreferrer"}
           aria-label={"Proj Profile"}
