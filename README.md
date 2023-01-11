@@ -6,11 +6,11 @@ My personal website built using React, HTML, and CSS.
 
 Clone the repository however you like, navigate inside, install dependicies with
 
-### npm install --legacy-peer-deps
+### `npm install --legacy-peer-deps`
 
 To run the application, run
 
-### npm start
+### `npm start`
 
 Site homepage is at
 
