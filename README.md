@@ -4,7 +4,7 @@ My personal website built using React, HTML, and CSS.
 
 ## How to run
 
-Clone the repository however you like, navigate inside, install dependicies with
+Clone the repository however you like, navigate inside, install dependencies with
 
 ### `npm install --legacy-peer-deps`
 
