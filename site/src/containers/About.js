@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 
 function About() {
   return (
-    <div className="about-container">
+    <div id="about" className="about-container">
       <Container className="about-content">
         <Row>
           <Col>

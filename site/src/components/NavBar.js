@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./NavBar.css";
 
 import logo from "../assets/logo.png";
@@ -45,40 +45,44 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="#home"
+              <HashLink
+                smooth
+                to="/site#home"
                 onClick={() => updateExpand(false)}
+                style={{ color: "inherit", textDecoration: "none" }}
               >
                 Home
-              </Nav.Link>
+              </HashLink>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="#about"
+              <HashLink
+                smooth
+                to="/site#about"
                 onClick={() => updateExpand(false)}
+                style={{ color: "inherit", textDecoration: "none" }}
               >
                 About
-              </Nav.Link>
+              </HashLink>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="#projects"
+              <HashLink
+                smooth
+                to="/site#projects"
                 onClick={() => updateExpand(false)}
+                style={{ color: "inherit", textDecoration: "none" }}
               >
                 Projects
-              </Nav.Link>
+              </HashLink>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="#resume"
+              <HashLink
+                smooth
+                to="/site#resume"
                 onClick={() => updateExpand(false)}
+                style={{ color: "inherit", textDecoration: "none" }}
               >
                 Resume
-              </Nav.Link>
+              </HashLink>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

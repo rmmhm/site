@@ -13,7 +13,7 @@ function Resume() {
   }, []);
 
   return (
-    <div className="resume-container">
+    <div id="resume" className="resume-container">
       <Container>
         <Row
           style={{

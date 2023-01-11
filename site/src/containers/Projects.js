@@ -28,7 +28,7 @@ const projs = [
 
 function Projects() {
   return (
-    <div className="proj-container">
+    <div id="projects" className="proj-container">
       <Container className="proj-content">
         <h1>Projects I've worked on</h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>

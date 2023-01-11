@@ -21,7 +21,7 @@ const icons = [
 
 function Header() {
   return (
-    <div className="header-container">
+    <div id="home" className="header-container">
       <Container fluid>
         <Row>
           <Fade bottom>
