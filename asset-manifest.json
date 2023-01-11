@@ -1,16 +1,14 @@
 {
-  "main.css": "/site/static/css/main.8fcbc552.chunk.css",
-  "main.js": "/site/static/js/main.b38dfc7e.chunk.js",
-  "main.js.map": "/site/static/js/main.b38dfc7e.chunk.js.map",
-  "runtime~main.js": "/site/static/js/runtime~main.de27f395.js",
-  "runtime~main.js.map": "/site/static/js/runtime~main.de27f395.js.map",
-  "static/css/2.990943bb.chunk.css": "/site/static/css/2.990943bb.chunk.css",
-  "static/js/2.5ea830d5.chunk.js": "/site/static/js/2.5ea830d5.chunk.js",
-  "static/js/2.5ea830d5.chunk.js.map": "/site/static/js/2.5ea830d5.chunk.js.map",
-  "index.html": "/site/index.html",
-  "precache-manifest.483d14e1d3997a692fe6a9dbe2a2b7e7.js": "/site/precache-manifest.483d14e1d3997a692fe6a9dbe2a2b7e7.js",
-  "service-worker.js": "/site/service-worker.js",
-  "static/css/2.990943bb.chunk.css.map": "/site/static/css/2.990943bb.chunk.css.map",
-  "static/css/main.8fcbc552.chunk.css.map": "/site/static/css/main.8fcbc552.chunk.css.map",
-  "static/media/2023resume.pdf": "/site/static/media/2023resume.ec176563.pdf"
+  "files": {
+    "main.css": "/site/static/css/main.6a2e7b85.css",
+    "main.js": "/site/static/js/main.82c8bc44.js",
+    "static/media/2023resume.pdf": "/site/static/media/2023resume.d2a3d3c93ede17691f11.pdf",
+    "index.html": "/site/index.html",
+    "main.6a2e7b85.css.map": "/site/static/css/main.6a2e7b85.css.map",
+    "main.82c8bc44.js.map": "/site/static/js/main.82c8bc44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a2e7b85.css",
+    "static/js/main.82c8bc44.js"
+  ]
 }
