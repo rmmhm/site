@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Header.css";
 import { Container, Row, Col } from "react-bootstrap";
-import Fade from "react-reveal/Fade";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 import IconButton from "@mui/material/IconButton";
 import { GitHub, LinkedIn } from "@mui/icons-material";
@@ -19,23 +20,54 @@ const icons = [
   },
 ];
 
+const headerVariant = {
+  visible: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.75 } },
+  hidden: { opacity: 0, scale: 1, y: 50 },
+};
+
 function Header() {
+  const control = useAnimation();
+  const [ref, inView] = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      control.start("visible");
+    } else {
+      control.start("hidden");
+    }
+  }, [control, inView]);
+
   return (
     <div id="home" className="header-container">
       <Container fluid>
         <Row>
-          <Fade bottom>
+          <motion.div
+            ref={ref}
+            variants={headerVariant}
+            initial="hidden"
+            animate={control}
+          >
             <h1>Ryan Ma</h1>
-          </Fade>
+          </motion.div>
         </Row>
         <Row>
-          <Fade bottom>
+          <motion.div
+            ref={ref}
+            variants={headerVariant}
+            initial="hidden"
+            animate={control}
+          >
             <h2>CS @ Georgia Tech | Full Stack Dev</h2>
-          </Fade>
+          </motion.div>
         </Row>
         <Row>
           <Col className="header-icons">
-            <Fade bottom>
+            <motion.div
+              ref={ref}
+              variants={headerVariant}
+              initial="hidden"
+              animate={control}
+            >
               {icons.map(({ url, key, icon }) => (
                 <IconButton
                   key={key}
@@ -57,10 +89,9 @@ function Header() {
                   {icon}
                 </IconButton>
               ))}
-            </Fade>
+            </motion.div>
           </Col>
         </Row>
-        <div className="header-icons"></div>
       </Container>
     </div>
   );

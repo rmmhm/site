@@ -32,3 +32,13 @@
   text-align: left !important;
   list-style-position: inside !important;
 }
+
+@media (max-width: 767px) {
+  .about-container {
+    padding-top: 125px;
+  }
+}
+
+.btn-light:hover {
+  background-color: #252f37 !important;
+}

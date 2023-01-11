@@ -10,7 +10,7 @@ function ProjectCard(props) {
       <Card.Img variant="top" src={props.img} alts="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>{props.desc}</Card.Text>
+        <Card.Text style={{ textAlign: "left" }}>{props.desc}</Card.Text>
         <IconButton
           key={"proj"}
           sx={{
