@@ -18,3 +18,9 @@
   padding-right: 25px !important;
   height: auto !important;
 }
+
+@media (max-width: 767px) {
+  .proj-container {
+    padding-top: 500px;
+  }
+}
