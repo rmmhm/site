@@ -10,13 +10,6 @@
   justify-content: center;
 }
 
-@media (max-width: 767px) {
-  .resume-content {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-
 .btn-custom {
   background-color: #0d1821;
 }
