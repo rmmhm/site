@@ -35,7 +35,7 @@
 
 @media (max-width: 767px) {
   .about-container {
-    padding-top: 500px;
+    margin-top: 500px;
   }
 }
 
