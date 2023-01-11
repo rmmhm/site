@@ -14,6 +14,6 @@ To run the application, run
 
 Site homepage is at
 
-### [link](rmmhm.github.io/site
+### https://rmmhm.github.io/site
 
 Navbar style from https://github.com/soumyajit4419/Portfolio
