@@ -6,12 +6,12 @@ import { useInView } from "react-intersection-observer";
 
 const aboutLeftVariant = {
   visible: { opacity: 1, scale: 1, x: 0, transition: { duration: 0.75 } },
-  hidden: { opacity: 0, scale: 1, x: -200 },
+  hidden: { opacity: 0, scale: 1, x: -200, transition: { duration: 0.75 } },
 };
 
 const aboutRightVariant = {
   visible: { opacity: 1, scale: 1, x: 0, transition: { duration: 0.75 } },
-  hidden: { opacity: 0, scale: 1, x: 200 },
+  hidden: { opacity: 0, scale: 1, x: 200, transition: { duration: 0.75 } },
 };
 
 function About() {

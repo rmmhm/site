@@ -22,7 +22,7 @@ const icons = [
 
 const headerVariant = {
   visible: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.75 } },
-  hidden: { opacity: 0, scale: 1, y: 50 },
+  hidden: { opacity: 0, scale: 1, y: 50, transition: { duration: 0.75 } },
 };
 
 function Header() {
