@@ -4,15 +4,20 @@ import { Container, Row, Col } from "react-bootstrap";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-const aboutLeftVariant = {
-  visible: { opacity: 1, scale: 1, x: 0, transition: { duration: 0.75 } },
-  hidden: { opacity: 0, scale: 1, x: -100, transition: { duration: 0.75 } },
-};
+let aboutLeftVariant = {};
+let aboutRightVariant = {};
+const isMobile = window.innerWidth < 768;
+if (!isMobile) {
+  aboutLeftVariant = {
+    visible: { opacity: 1, scale: 1, x: 0, transition: { duration: 0.75 } },
+    hidden: { opacity: 0, scale: 1, x: -100, transition: { duration: 0.75 } },
+  };
 
-const aboutRightVariant = {
-  visible: { opacity: 1, scale: 1, x: 0, transition: { duration: 0.75 } },
-  hidden: { opacity: 0, scale: 1, x: 100, transition: { duration: 0.75 } },
-};
+  aboutRightVariant = {
+    visible: { opacity: 1, scale: 1, x: 0, transition: { duration: 0.75 } },
+    hidden: { opacity: 0, scale: 1, x: 100, transition: { duration: 0.75 } },
+  };
+}
 
 function About() {
   const control = useAnimation();

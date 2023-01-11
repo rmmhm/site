@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -11,15 +11,13 @@ function NavBar() {
   const [expand, updateExpand] = useState(false);
   const [blur, updateBlur] = useState(false);
 
-  function showNavbar() {
-    if (window.scrollY >= 40) {
-      updateBlur(true);
-    } else {
-      updateBlur(false);
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", () =>
+        updateBlur(window.pageYOffset > 200)
+      );
     }
-  }
-
-  window.addEventListener("scroll", showNavbar);
+  }, []);
 
   return (
     <Navbar

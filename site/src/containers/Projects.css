@@ -19,8 +19,8 @@
   height: auto !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .proj-container {
-    padding-top: 500px;
+    margin-top: 400px;
   }
 }

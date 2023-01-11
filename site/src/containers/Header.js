@@ -20,10 +20,14 @@ const icons = [
   },
 ];
 
-const headerVariant = {
-  visible: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.75 } },
-  hidden: { opacity: 0, scale: 1, y: 50, transition: { duration: 0.75 } },
-};
+let headerVariant = {};
+const isMobile = window.innerWidth < 768;
+if (!isMobile) {
+  headerVariant = {
+    visible: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.75 } },
+    hidden: { opacity: 0, scale: 1, y: 50, transition: { duration: 0.75 } },
+  };
+}
 
 function Header() {
   const control = useAnimation();
