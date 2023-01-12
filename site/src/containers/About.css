@@ -42,3 +42,9 @@
     margin-top: 500px;
   }
 }
+
+@media (max-width: 1008px) {
+  .about-content {
+    margin-top: 200px;
+  }
+}
