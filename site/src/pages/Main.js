@@ -4,6 +4,7 @@ import Header from "../containers/Header";
 import About from "../containers/About";
 import Projects from "../containers/Projects";
 import Resume from "../containers/Resume";
+import Footer from "../components/Footer";
 import { useInView } from "react-intersection-observer";
 
 import "./Main.css";
@@ -30,6 +31,7 @@ function Main() {
       <About />
       <Projects />
       <Resume />
+      <Footer></Footer>
     </div>
   );
 }
