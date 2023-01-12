@@ -4,20 +4,16 @@ import { Container, Row, Col } from "react-bootstrap";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-let aboutLeftVariant = {};
-let aboutRightVariant = {};
-const isMobile = window.innerWidth < 768;
-if (!isMobile) {
-  aboutLeftVariant = {
-    visible: { opacity: 1, scale: 1, x: 0, transition: { duration: 0.75 } },
-    hidden: { opacity: 0, scale: 1, x: -100, transition: { duration: 0.75 } },
-  };
+const aboutLeftVariant = {
+  visible: { opacity: 1, scale: 1, x: 0, transition: { duration: 0.75 } },
+  hidden: { opacity: 0, scale: 1, x: -200, transition: { duration: 0.75 } },
+};
 
-  aboutRightVariant = {
-    visible: { opacity: 1, scale: 1, x: 0, transition: { duration: 0.75 } },
-    hidden: { opacity: 0, scale: 1, x: 100, transition: { duration: 0.75 } },
-  };
-}
+const aboutRightVariant = {
+  visible: { opacity: 1, scale: 1, x: 0, transition: { duration: 0.75 } },
+  hidden: { opacity: 0, scale: 1, x: 200, transition: { duration: 0.75 } },
+};
+const isMobile = window.innerWidth < 768;
 
 function About() {
   const control = useAnimation();
@@ -34,14 +30,14 @@ function About() {
   return (
     <div id="about" className="about-container">
       <Container className="about-content">
-        <Row>
-          <Col>
-            <motion.div
-              ref={ref}
-              variants={aboutLeftVariant}
-              initial="hidden"
-              animate={control}
-            >
+        <motion.div
+          ref={ref}
+          variants={aboutLeftVariant}
+          initial="hidden"
+          animate={control}
+        >
+          <Row>
+            <Col>
               <h1>Hello!</h1>
               <p>
                 I'm a CS student at Georgia Tech specializing in artifical
@@ -62,15 +58,8 @@ function About() {
                 I'm always looking to learn new technologies and to work on cool
                 stuff!
               </p>
-            </motion.div>
-          </Col>
-          <Col md={2}>
-            <motion.div
-              ref={ref}
-              variants={aboutRightVariant}
-              initial="hidden"
-              animate={control}
-            >
+            </Col>
+            <Col md={2}>
               <h2>
                 <b>Languages</b>
               </h2>
@@ -87,9 +76,9 @@ function About() {
                 <li>Express</li>
                 <li>Node</li>
               </ul>
-            </motion.div>
-          </Col>
-        </Row>
+            </Col>
+          </Row>
+        </motion.div>
       </Container>
     </div>
   );
