@@ -12,6 +12,14 @@ function Resume() {
     setWidth(window.innerWidth);
   }, []);
 
+  let scaleValue = 1.4;
+  if (width >= 1920) {
+    scaleValue = 1.7;
+  }
+  if (width <= 768) {
+    scaleValue = 1;
+  }
+
   return (
     <div id="resume" className="resume-container">
       <Container>
@@ -34,7 +42,7 @@ function Resume() {
         <br />
         <Row className="resume-content">
           <Document file={pdf} className="d-flex justify-content-center resume">
-            <Page pageNumber={1} scale={width > 768 ? 1.7 : 0.6} />
+            <Page pageNumber={1} scale={scaleValue} />
           </Document>
         </Row>
       </Container>
