@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -9,22 +9,24 @@ import logo from "../assets/logo.png";
 
 function NavBar() {
   const [expand, updateExpand] = useState(false);
-  const [blur, updateBlur] = useState(false);
+  const [navsticky, updateNavbar] = useState(false);
 
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      window.addEventListener("scroll", () =>
-        updateBlur(window.pageYOffset > 200)
-      );
+  function scrollHandler() {
+    if (window.scrollY >= 20) {
+      updateNavbar(true);
+    } else {
+      updateNavbar(false);
     }
-  }, []);
+  }
+
+  window.addEventListener("scroll", scrollHandler);
 
   return (
     <Navbar
       expanded={expand}
       fixed="top"
       expand="md"
-      className={blur ? "sticky" : "navbar"}
+      className={navsticky ? "sticky" : "navbar"}
     >
       <Container style={{ flexDirection: "row" }}>
         <Navbar.Brand href="/site" className="d-flex">

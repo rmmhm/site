@@ -7,7 +7,7 @@ import phol from "../assets/placeholder.jpg";
 
 const projs = [
   {
-    title: "Projecct One",
+    title: "Project One",
     desc: "This is the description for Project One, with some more text to see how the formatting would look with a longer description",
     imgPath: phol,
     projUrl: "https://github.com/rmmhm",

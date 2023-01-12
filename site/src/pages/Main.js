@@ -4,7 +4,6 @@ import Header from "../containers/Header";
 import About from "../containers/About";
 import Projects from "../containers/Projects";
 import Resume from "../containers/Resume";
-// import { Header, About, Projects, Resume } from "../containers";
 import "./Main.css";
 
 function Main() {

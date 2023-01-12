@@ -25,17 +25,9 @@ const headerVariant = {
   hidden: { opacity: 0, scale: 1, y: 50, transition: { duration: 0.75 } },
 };
 
-const isMobile = window.innerWidth < 768;
-let options = {};
-if (isMobile) {
-  options = {
-    threshold: 0.5,
-  };
-}
-
 function Header() {
   const control = useAnimation();
-  const [ref, inView] = useInView(options);
+  const [ref, inView] = useInView();
 
   useEffect(() => {
     if (inView) {

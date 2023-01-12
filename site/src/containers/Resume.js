@@ -17,7 +17,7 @@ function Resume() {
     scaleValue = 1.7;
   }
   if (width <= 768) {
-    scaleValue = 1;
+    scaleValue = 0.6;
   }
 
   return (
