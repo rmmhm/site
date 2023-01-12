@@ -7,27 +7,11 @@ import "./NavBar.css";
 
 import logo from "../assets/logo.png";
 
-function NavBar() {
+function NavBar(props) {
   const [expand, updateExpand] = useState(false);
-  const [navsticky, updateNavbar] = useState(false);
-
-  function scrollHandler() {
-    if (window.scrollY >= 20) {
-      updateNavbar(true);
-    } else {
-      updateNavbar(false);
-    }
-  }
-
-  window.addEventListener("scroll", scrollHandler);
 
   return (
-    <Navbar
-      expanded={expand}
-      fixed="top"
-      expand="md"
-      className={navsticky ? "sticky" : "navbar"}
-    >
+    <Navbar expanded={expand} fixed="top" expand="md" className={props.format}>
       <Container style={{ flexDirection: "row" }}>
         <Navbar.Brand href="/site" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="logo" />
