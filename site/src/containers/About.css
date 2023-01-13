@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
   width: 100%;
   min-height: 100vh;
 }
@@ -37,15 +36,9 @@
   background-color: #252f37 !important;
 }
 
-@media (max-width: 768px) {
-  .about-content {
-    margin-top: 500px;
-    padding-top: 400px;
-  }
-}
-
-@media (max-width: 1008px) {
-  .about-content {
-    margin-top: 200px;
+@media (max-width: 1024px) {
+  .about-container {
+    height: auto !important;
+    padding-top: 25vh;
   }
 }

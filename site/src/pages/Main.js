@@ -31,7 +31,7 @@ function Main() {
       <About />
       <Projects />
       <Resume />
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 }
