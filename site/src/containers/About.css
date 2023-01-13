@@ -42,3 +42,9 @@
     padding-top: 25vh;
   }
 }
+
+@media (max-width: 768px) {
+  .about-container {
+    min-height: auto;
+  }
+}

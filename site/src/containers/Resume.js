@@ -39,7 +39,6 @@ function Resume() {
             Download Resume
           </Button>
         </Row>
-        <br />
         <Row className="resume-content">
           <Document file={pdf} className="d-flex justify-content-center resume">
             <Page pageNumber={1} scale={scaleValue} />
