@@ -7,20 +7,20 @@ import phol from "../assets/placeholder.jpg";
 
 const projs = [
   {
-    title: "Project One",
-    desc: "This is the description for Project One, with some more text to see how the formatting would look with a longer description",
+    title: "Pulse+",
+    desc: "A movie and restaurant/recipe recommender, utilizing the NYT movie, Yelp, and Edamam APIs respectively. Completed as a group project in one week.",
+    imgPath: phol,
+    projUrl: "https://github.com/pak-plau/PulsePlus_v2",
+  },
+  {
+    title: "Jeopardy Game",
+    desc: "2-player web Jeopardy game using the Open Trivia DB API. Completed as a group project in one month. ",
     imgPath: phol,
     projUrl: "https://github.com/rmmhm",
   },
   {
-    title: "Project Two",
-    desc: "This is the description for Project Two, with some more text to see how the formatting would look with a longer description",
-    imgPath: phol,
-    projUrl: "https://github.com/rmmhm",
-  },
-  {
-    title: "Project Three",
-    desc: "This is the description for Project Three, with some more text to see how the formatting would look with a longer description",
+    title: "Bill Splitter",
+    desc: "Bill splitting application for outtings with friends, coworkers, etc. Usable in any US state! In progress <3",
     imgPath: phol,
     projUrl: "https://github.com/rmmhm",
   },
