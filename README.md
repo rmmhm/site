@@ -14,7 +14,7 @@ To run the application, run
 
 Site homepage is at
 
-https://rmmhm.github.io/site
+http://localhost:3000/site
 
 
 
