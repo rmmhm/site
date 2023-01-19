@@ -18,12 +18,12 @@ const projs = [
     imgPath: phol,
     projUrl: "https://github.com/rmmhm",
   },
-  {
-    title: "Bill Splitter",
-    desc: "Bill splitting application for outtings with friends, coworkers, etc. Usable in any US state! In progress <3",
-    imgPath: phol,
-    projUrl: "https://github.com/rmmhm",
-  },
+  // {
+  //   title: "Bill Splitter",
+  //   desc: "Bill splitting application for outtings with friends, coworkers, etc. Usable in any US state! In progress <3",
+  //   imgPath: phol,
+  //   projUrl: "https://github.com/rmmhm",
+  // },
 ];
 
 function Projects() {

@@ -14,6 +14,8 @@ function ProjectCard(props) {
   const rotateY = useTransform(y, [0, 1], [8, -8], {
     clamp: true,
   });
+  const transformPerspective = 1500;
+
   function onMove(e) {
     const bounds = e.currentTarget.getBoundingClientRect();
     const xVal = (e.clientX - bounds.x) / e.currentTarget.clientWidth;
@@ -25,7 +27,7 @@ function ProjectCard(props) {
   return (
     <motion.div
       onPointerMove={onMove}
-      style={{ perspective: 500, rotateX, rotateY }}
+      style={{ transformPerspective, rotateX, rotateY }}
     >
       <Card
         id="project-card"

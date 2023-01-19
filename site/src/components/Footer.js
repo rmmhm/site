@@ -12,6 +12,7 @@ function Footer() {
           <Col>
             View source on
             <IconButton
+              style={{ margin: 5 }}
               key={"Source"}
               sx={{
                 color: "rgba(255, 255, 255, 0.6)",

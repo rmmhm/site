@@ -49,8 +49,7 @@ function About() {
                 </a>
                 <br />
                 <br />
-                I'm always looking to learn new technologies and to work on cool
-                stuff!
+                I'm always looking to learn and work on cool stuff!
               </p>
             </Col>
             <Col md={2}>
