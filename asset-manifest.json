@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/site/static/css/main.e2ca877a.css",
-    "main.js": "/site/static/js/main.6609b769.js",
+    "main.js": "/site/static/js/main.eee6cf75.js",
+    "static/media/movie.jpg": "/site/static/media/movie.3d671a71060a189f26ea.jpg",
+    "static/media/jeopardy.webp": "/site/static/media/jeopardy.4646cd593440de2d1fd8.webp",
     "static/media/2023resume.pdf": "/site/static/media/2023resume.d2a3d3c93ede17691f11.pdf",
     "index.html": "/site/index.html",
     "main.e2ca877a.css.map": "/site/static/css/main.e2ca877a.css.map",
-    "main.6609b769.js.map": "/site/static/js/main.6609b769.js.map"
+    "main.eee6cf75.js.map": "/site/static/js/main.eee6cf75.js.map"
   },
   "entrypoints": [
     "static/css/main.e2ca877a.css",
-    "static/js/main.6609b769.js"
+    "static/js/main.eee6cf75.js"
   ]
 }
