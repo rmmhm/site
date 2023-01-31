@@ -3,19 +3,20 @@ import "./Projects.css";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/ProjectCard";
 
-import phol from "../assets/placeholder.jpg";
+import pulse from "../assets/movie.jpg";
+import jeop from "../assets/jeopardy.webp";
 
 const projs = [
   {
     title: "Pulse+",
     desc: "A movie and restaurant/recipe recommender, utilizing the NYT movie, Yelp, and Edamam APIs respectively. Completed as a group project in one week.",
-    imgPath: phol,
+    imgPath: pulse,
     projUrl: "https://github.com/pak-plau/PulsePlus_v2",
   },
   {
     title: "Jeopardy Game",
     desc: "2-player web Jeopardy game using the Open Trivia DB API. Completed as a group project in one month. ",
-    imgPath: phol,
+    imgPath: jeop,
     projUrl: "https://github.com/rmmhm",
   },
   // {
