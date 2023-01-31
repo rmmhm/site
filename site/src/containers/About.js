@@ -50,9 +50,6 @@ function About() {
                 </a>
                 <br />
                 <br />
-                I'm always looking to learn and work on cool stuff!
-                <br />
-                <br />
                 Other than all the tech stuff, I love video games, running,
                 reading Wikipedia movie plot summaries (I know), and spending
                 time with my s/o, friends, and family.
