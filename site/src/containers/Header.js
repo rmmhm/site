@@ -5,13 +5,18 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 import IconButton from "@mui/material/IconButton";
-import { GitHub, LinkedIn } from "@mui/icons-material";
+import { GitHub, LinkedIn, Email } from "@mui/icons-material";
 
 const icons = [
   {
     icon: <GitHub />,
     key: "GitHub",
     url: "https://github.com/rmmhm",
+  },
+  {
+    icon: <Email />,
+    key: "Email",
+    url: "mailto:ryanma22303@gmail.com",
   },
   {
     icon: <LinkedIn />,

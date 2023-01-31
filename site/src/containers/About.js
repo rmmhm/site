@@ -33,6 +33,7 @@ function About() {
           <Row>
             <Col>
               <h1>Hello!</h1>
+              <br />
               <p>
                 I'm a CS student at Georgia Tech specializing in artifical
                 intelligence and systems+architecture.
@@ -50,6 +51,11 @@ function About() {
                 <br />
                 <br />
                 I'm always looking to learn and work on cool stuff!
+                <br />
+                <br />
+                Other than all the tech stuff, I love video games, running,
+                reading Wikipedia movie plot summaries (I know), and spending
+                time with my s/o, friends, and family.
               </p>
             </Col>
             <Col md={2}>
