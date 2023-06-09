@@ -39,7 +39,7 @@ function About() {
                 intelligence and systems+architecture.
                 <br />
                 <br />
-                I'm currently a software engineer intern at Marketaxess,
+                I'm currently a software engineer intern at MarketAxess,
                 on the Automation team. You can check them out <></>
                 <a
                   href="https://www.marketaxess.com/trade/auto-execution"
