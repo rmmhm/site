@@ -52,7 +52,17 @@ function About() {
                 <br />
                 Other than all the tech stuff, I love video games, running,
                 reading Wikipedia movie plot summaries (I know), and spending
-                time with my s/o, friends, and family.
+                time with my s/o, friends, and family./
+                <br />
+                <br />
+                <br />
+                <a
+                  href="https://www.op.gg/summoners/na/lyhea"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  dont click me
+                </a>
               </p>
             </Col>
             <Col md={2}>

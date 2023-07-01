@@ -48,3 +48,7 @@
     min-height: auto;
   }
 }
+
+a {
+  text-decoration: none !important;
+}
