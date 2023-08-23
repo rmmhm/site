@@ -58,7 +58,7 @@ function About() {
                 <br />
                 Other than all the tech and work stuff, I love video games,
                 running, reading Wikipedia movie plot summaries (I know), and
-                spending time with my s/o, friends, and family./
+                spending time with my s/o, friends, and family.
                 <br />
                 <br />
                 <br />
