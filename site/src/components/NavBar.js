@@ -13,9 +13,7 @@ function NavBar(props) {
   return (
     <Navbar expanded={expand} fixed="top" expand="md" className={props.format}>
       <Container style={{ flexDirection: "row" }}>
-        <Navbar.Brand href="/site" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="logo" />
-        </Navbar.Brand>
+        <Navbar.Brand href="/site" className="d-flex" />
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {

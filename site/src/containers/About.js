@@ -39,10 +39,10 @@ function About() {
                 intelligence and systems+architecture.
                 <br />
                 <br />
-                I'm currently a software engineer intern at Unfound, a startup
-                based in Northwestern University. You can check them out <></>
+                I'm currently a software engineer intern at MarketAxess,
+                on the Automation team. You can check them out <></>
                 <a
-                  href="https://unfound.app/"
+                  href="https://www.marketaxess.com/trade/auto-execution"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -52,7 +52,17 @@ function About() {
                 <br />
                 Other than all the tech stuff, I love video games, running,
                 reading Wikipedia movie plot summaries (I know), and spending
-                time with my s/o, friends, and family.
+                time with my s/o, friends, and family./
+                <br />
+                <br />
+                <br />
+                <a
+                  href="https://www.op.gg/summoners/na/lyhea"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  dont click me
+                </a>
               </p>
             </Col>
             <Col md={2}>
@@ -69,6 +79,7 @@ function About() {
               </h2>
               <ul>
                 <li>React</li>
+                <li>Svelte (Learning!)</li>
                 <li>Express</li>
                 <li>Node</li>
               </ul>

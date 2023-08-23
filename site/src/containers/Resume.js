@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Resume.css";
 import { Container, Row, Button } from "react-bootstrap";
 import { Document, Page, pdfjs } from "react-pdf";
-import pdf from "../assets/2023resume.pdf";
+import pdf from "../assets/Ryan_Ma_Resume.pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 

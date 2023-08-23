@@ -3,10 +3,17 @@ import "./Projects.css";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/ProjectCard";
 
+import temp from "../assets/placeholder.jpg";
 import pulse from "../assets/movie.jpg";
 import jeop from "../assets/jeopardy.webp";
 
 const projs = [
+  {
+    title: "Museview",
+    desc: "A Letterboxd-inspired site for rating music, very WIP! Learning Svelte along the way.",
+    imgPath: temp,
+    projUrl: "https://github.com/rmmhm/museview"
+  },
   {
     title: "Pulse+",
     desc: "A movie and restaurant/recipe recommender, utilizing the NYT movie, Yelp, and Edamam APIs respectively. Completed as a group project in one week.",
