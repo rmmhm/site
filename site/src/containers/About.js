@@ -38,9 +38,9 @@ function About() {
                 I'm a CS student at Georgia Tech specializing in artifical
                 intelligence and systems+architecture.
                 <br />
-                <br />
-                I'm currently a software engineer intern at MarketAxess,
-                on the Automation team. You can check them out <></>
+                <br />I was mostly recently a software engineer intern at
+                MarketAxess, on the Automation team. You can check them out{" "}
+                <></>
                 <a
                   href="https://www.marketaxess.com/trade/auto-execution"
                   target="_blank"
@@ -50,9 +50,15 @@ function About() {
                 </a>
                 <br />
                 <br />
-                Other than all the tech stuff, I love video games, running,
-                reading Wikipedia movie plot summaries (I know), and spending
-                time with my s/o, friends, and family./
+                I've worked a bunch of jobs here and there, like being an Amazon
+                Fresh warehouse associate, barista for a bubble tea store at
+                SUNY Binghamton, and IT student assistant jobs at both SUNY
+                Binghamton and Georgia Tech.
+                <br />
+                <br />
+                Other than all the tech and work stuff, I love video games,
+                running, reading Wikipedia movie plot summaries (I know), and
+                spending time with my s/o, friends, and family./
                 <br />
                 <br />
                 <br />
