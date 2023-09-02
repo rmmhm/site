@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/site/static/css/main.280bc9d5.css",
-    "main.js": "/site/static/js/main.9bedd5cf.js",
+    "main.js": "/site/static/js/main.e2d90f8d.js",
     "static/media/movie.jpg": "/site/static/media/movie.3d671a71060a189f26ea.jpg",
     "static/media/jeopardy.webp": "/site/static/media/jeopardy.4646cd593440de2d1fd8.webp",
     "static/media/Ryan_Ma_Resume.pdf": "/site/static/media/Ryan_Ma_Resume.68e6d07c920caaf03314.pdf",
     "index.html": "/site/index.html",
     "main.280bc9d5.css.map": "/site/static/css/main.280bc9d5.css.map",
-    "main.9bedd5cf.js.map": "/site/static/js/main.9bedd5cf.js.map"
+    "main.e2d90f8d.js.map": "/site/static/js/main.e2d90f8d.js.map"
   },
   "entrypoints": [
     "static/css/main.280bc9d5.css",
-    "static/js/main.9bedd5cf.js"
+    "static/js/main.e2d90f8d.js"
   ]
 }
