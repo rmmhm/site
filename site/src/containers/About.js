@@ -32,6 +32,7 @@ function About() {
         >
           <Row>
             <Col>
+              <br />
               <h1>Hello!</h1>
               <br />
               <p>
@@ -73,6 +74,7 @@ function About() {
               </p>
             </Col>
             <Col md={2}>
+              <br />
               <h2>
                 <b>Languages</b>
               </h2>
