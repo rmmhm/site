@@ -50,10 +50,11 @@ function About() {
                 </a>
                 <br />
                 <br />
-                I've worked a bunch of jobs here and there, like being an Amazon
-                Fresh warehouse associate, barista for a bubble tea store at
-                SUNY Binghamton, and IT student assistant jobs at both SUNY
-                Binghamton and Georgia Tech.
+                I've worked a bunch here and there, like being an Amazon Fresh
+                warehouse associate, bubble tea barista at SUNY Binghamton, and
+                IT student assistant jobs at both SUNY Binghamton and Georgia
+                Tech, which really helped me understand a lot more about the
+                world!
                 <br />
                 <br />
                 Other than all the tech and work stuff, I love video games,
