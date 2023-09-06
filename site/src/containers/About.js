@@ -36,8 +36,8 @@ function About() {
               <h1>Hello!</h1>
               <br />
               <p>
-                I'm a CS student at Georgia Tech specializing in artifical
-                intelligence and systems+architecture.
+                I'm a 3rd year CS student at Georgia Tech specializing in
+                artifical intelligence and systems+architecture.
                 <br />
                 <br />I was mostly recently a software engineer intern at
                 MarketAxess, on the Automation team. You can check them out{" "}
@@ -64,6 +64,10 @@ function About() {
                 <br />
                 <br />
                 <br />
+                I also play for the Georgia Tech Competitive League of Legends
+                team as a starting adc, which mainly competes in Riot Games'
+                NACL as well as amateur leagues and tournaments.
+                <br />
                 <a
                   href="https://www.op.gg/summoners/na/lyhea"
                   target="_blank"
@@ -82,6 +86,8 @@ function About() {
                 <li>Java</li>
                 <li>Javascript</li>
                 <li>Python</li>
+                <li>C++</li>
+                <li>C</li>
               </ul>
               <h2>
                 <b>Frameworks</b>
