@@ -63,7 +63,6 @@ function About() {
                 spending time with my s/o, friends, and family.
                 <br />
                 <br />
-                <br />
                 I also play for the Georgia Tech Competitive League of Legends
                 team as a starting adc, which mainly competes in Riot Games'
                 NACL as well as amateur leagues and tournaments.
