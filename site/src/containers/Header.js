@@ -21,7 +21,7 @@ const icons = [
   {
     icon: <LinkedIn />,
     key: "LinkedIn",
-    url: "https://www.linkedin.com/in/rmmhm/",
+    url: "https://www.linkedin.com/in/ryanma03/",
   },
 ];
 

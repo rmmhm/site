@@ -52,8 +52,8 @@ function About() {
                 <br />
                 <br />
                 I've worked a bunch here and there, like being an Amazon Fresh
-                warehouse associate, bubble tea barista at SUNY Binghamton, and
-                IT student assistant jobs at both SUNY Binghamton and Georgia
+                warehouse associate, a bubble tea barista at SUNY Binghamton,
+                and a IT student assistant at both SUNY Binghamton and Georgia
                 Tech, which really helped me understand a lot more about the
                 world!
                 <br />
@@ -72,7 +72,7 @@ function About() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  dont click me
+                  opgg
                 </a>
               </p>
             </Col>
@@ -83,7 +83,8 @@ function About() {
               </h2>
               <ul>
                 <li>Java</li>
-                <li>Javascript</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
                 <li>Python</li>
                 <li>C++</li>
                 <li>C</li>
