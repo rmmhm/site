@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./About.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { SystemSecurityUpdate } from "@mui/icons-material";
 
 const aboutVariant = {
   visible: { opacity: 1, scale: 1, x: 0, transition: { duration: 0.7 } },
@@ -12,8 +13,21 @@ const aboutVariant = {
 function About() {
   const control = useAnimation();
   const [ref, inView] = useInView();
+  const [rating, setRating] = useState(0);
+
+  async function getRating() {
+    const data = await fetch(
+      "https://codeforces.com/api/user.info?handles=lyhea"
+    );
+    const res = await data.json();
+    console.log(res);
+    if (res.status === "OK") {
+      setRating(res.result[0].rating);
+    }
+  }
 
   useEffect(() => {
+    getRating();
     if (inView) {
       control.start("visible");
     } else {
@@ -51,11 +65,12 @@ function About() {
                 </a>
                 <br />
                 <br />
-                I've worked a bunch here and there, like being an Amazon Fresh
-                warehouse associate, a bubble tea barista at SUNY Binghamton,
-                and a IT student assistant at both SUNY Binghamton and Georgia
-                Tech, which really helped me understand a lot more about the
-                world!
+                I'm currently getting into competitive programming and ICPC. My
+                goal is to get to teal (1400) on Codeforces by the end of the
+                year.
+                <br />
+                currently at{" "}
+                <span style={{ fontWeight: "bold" }}>{rating}</span> rating
                 <br />
                 <br />
                 Other than all the tech and work stuff, I love video games,
