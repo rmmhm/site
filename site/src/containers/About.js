@@ -70,7 +70,12 @@ function About() {
                 year.
                 <br />
                 currently at{" "}
-                <span style={{ fontWeight: "bold" }}>{rating}</span> rating
+                <a 
+                  href="https://codeforces.com/profile/lyhea" 
+                  target="_blank" rel="noopener noreferrer" 
+                  style={{ fontWeight: "bold" }}>
+                    {rating}
+                </a> rating
                 <br />
                 <br />
                 Other than all the tech and work stuff, I love video games,
