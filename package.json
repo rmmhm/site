@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "create-react-app": "^5.0.1",
-    "react-router-hash-link": "^2.4.3"
-  }
-}
