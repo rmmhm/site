@@ -53,16 +53,16 @@ function About() {
                 I'm a 3rd year CS student at Georgia Tech specializing in
                 artifical intelligence and systems+architecture.
                 <br />
-                <br />I was mostly recently a software engineer intern at
-                MarketAxess, on the Automation team. You can check them out{" "}
-                <></>
+                <br />
+                incoming SWE intern at <></>
                 <a
-                  href="https://www.marketaxess.com/trade/auto-execution"
+                  href="https://flatiron.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  here!
+                  Flatiron Health
                 </a>
+                !
                 <br />
                 <br />
                 I'm currently getting into competitive programming and ICPC. My
@@ -70,12 +70,15 @@ function About() {
                 year.
                 <br />
                 currently at{" "}
-                <a 
-                  href="https://codeforces.com/profile/lyhea" 
-                  target="_blank" rel="noopener noreferrer" 
-                  style={{ fontWeight: "bold" }}>
-                    {rating}
-                </a> rating
+                <a
+                  href="https://codeforces.com/profile/lyhea"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ fontWeight: "bold" }}
+                >
+                  {rating}
+                </a>{" "}
+                rating
                 <br />
                 <br />
                 Other than all the tech and work stuff, I love video games,
