@@ -12,7 +12,7 @@ const projs = [
     title: "Museview",
     desc: "A Letterboxd-inspired site for rating music, very WIP! Learning Svelte along the way.",
     imgPath: temp,
-    projUrl: "https://github.com/rmmhm/museview"
+    projUrl: "https://github.com/rmmhm/museview",
   },
   {
     title: "Pulse+",
@@ -26,12 +26,6 @@ const projs = [
     imgPath: jeop,
     projUrl: "https://github.com/rmmhm",
   },
-  // {
-  //   title: "Bill Splitter",
-  //   desc: "Bill splitting application for outtings with friends, coworkers, etc. Usable in any US state! In progress <3",
-  //   imgPath: phol,
-  //   projUrl: "https://github.com/rmmhm",
-  // },
 ];
 
 function Projects() {

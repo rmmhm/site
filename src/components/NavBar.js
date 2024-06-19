@@ -49,16 +49,6 @@ function NavBar(props) {
             <Nav.Item>
               <HashLink
                 smooth
-                to="/site#projects"
-                onClick={() => updateExpand(false)}
-                style={{ color: "inherit", textDecoration: "none" }}
-              >
-                Projects
-              </HashLink>
-            </Nav.Item>
-            <Nav.Item>
-              <HashLink
-                smooth
                 to="/site#resume"
                 onClick={() => updateExpand(false)}
                 style={{ color: "inherit", textDecoration: "none" }}

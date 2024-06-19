@@ -50,11 +50,11 @@ function About() {
               <h1>Hello!</h1>
               <br />
               <p>
-                I'm a 3rd year CS student at Georgia Tech specializing in
+                I'm a 4th year BSMS CS student at Georgia Tech specializing in
                 artifical intelligence and systems+architecture.
                 <br />
                 <br />
-                incoming SWE intern at <></>
+                SWE intern at <></>
                 <a
                   href="https://flatiron.com/"
                   target="_blank"
@@ -65,9 +65,7 @@ function About() {
                 !
                 <br />
                 <br />
-                I'm currently getting into competitive programming and ICPC. My
-                goal is to get to teal (1400) on Codeforces by the end of the
-                year.
+                I'm currently getting into competitive programming and ICPC.
                 <br />
                 currently at{" "}
                 <a
@@ -117,7 +115,6 @@ function About() {
               </h2>
               <ul>
                 <li>React</li>
-                <li>Svelte (Learning!)</li>
                 <li>Express</li>
                 <li>Node</li>
               </ul>
