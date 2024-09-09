@@ -123,7 +123,3 @@
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
 }
-
-.logo {
-  width: 5em;
-}
