@@ -54,7 +54,7 @@ function About() {
                 artifical intelligence and systems+architecture.
                 <br />
                 <br />
-                SWE intern at <></>
+                previous SWE intern at <></>
                 <a
                   href="https://flatiron.com/"
                   target="_blank"
@@ -85,8 +85,8 @@ function About() {
                 <br />
                 <br />
                 I also play for the Georgia Tech Competitive League of Legends
-                team as a starting adc, which mainly competes in Riot Games'
-                NACL as well as amateur leagues and tournaments.
+                team as the starting mid laner, which mainly competes in Riot
+                Games' NACL as well as amateur leagues and tournaments.
                 <br />
                 <a
                   href="https://www.op.gg/summoners/na/lyhea"
