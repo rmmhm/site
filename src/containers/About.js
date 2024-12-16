@@ -56,7 +56,7 @@ function About() {
                 artificial intelligence and systems+architecture
                 <br />
                 <br />
-                former SWE intern at <></>
+                previous SWE intern at <></>
                 <a
                   href="https://flatiron.com/"
                   target="_blank"
