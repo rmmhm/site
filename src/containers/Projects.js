@@ -4,27 +4,19 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/ProjectCard";
 
 import temp from "../assets/placeholder.jpg";
-import pulse from "../assets/movie.jpg";
-import jeop from "../assets/jeopardy.webp";
 
 const projs = [
   {
-    title: "Museview",
-    desc: "A Letterboxd-inspired site for rating music, very WIP! Learning Svelte along the way.",
+    title: "TravelPal",
+    desc: "An AI trip advertiser that recommends restaurants, attractions, etc. near input coordinates.",
     imgPath: temp,
-    projUrl: "https://github.com/rmmhm/museview",
+    projUrl: "https://github.com/rmmhm/TravelPal",
   },
   {
-    title: "Pulse+",
-    desc: "A movie and restaurant/recipe recommender, utilizing the NYT movie, Yelp, and Edamam APIs respectively. Completed as a group project in one week.",
-    imgPath: pulse,
-    projUrl: "https://github.com/pak-plau/PulsePlus_v2",
-  },
-  {
-    title: "Jeopardy Game",
-    desc: "2-player web Jeopardy game using the Open Trivia DB API. Completed as a group project in one month. ",
-    imgPath: jeop,
-    projUrl: "https://github.com/rmmhm",
+    title: "GoalArena",
+    desc: "A productivity app that allows users to plan out their tasks on a calendar, compete with friends to earn points from completing tasks, and read an AI daily digest.",
+    imgPath: temp,
+    projUrl: "https://github.com/rmmhm/GoalArena",
   },
 ];
 

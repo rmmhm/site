@@ -29,6 +29,7 @@ function Main() {
         <Header />
       </div>
       <About />
+      <Projects />
       <Resume />
       <Footer />
     </div>

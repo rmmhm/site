@@ -5,8 +5,6 @@ import Container from "react-bootstrap/Container";
 import { HashLink } from "react-router-hash-link";
 import "./NavBar.css";
 
-import logo from "../assets/logo.png";
-
 function NavBar(props) {
   const [expand, updateExpand] = useState(false);
 

@@ -3,7 +3,6 @@ import "./About.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { SystemSecurityUpdate } from "@mui/icons-material";
 
 const aboutVariant = {
   visible: { opacity: 1, scale: 1, x: 0, transition: { duration: 0.7 } },
@@ -13,21 +12,21 @@ const aboutVariant = {
 function About() {
   const control = useAnimation();
   const [ref, inView] = useInView();
-  const [rating, setRating] = useState(0);
+  // const [rating, setRating] = useState(0);
 
-  async function getRating() {
-    const data = await fetch(
-      "https://codeforces.com/api/user.info?handles=lyhea"
-    );
-    const res = await data.json();
-    console.log(res);
-    if (res.status === "OK") {
-      setRating(res.result[0].rating);
-    }
-  }
+  // async function getRating() {
+  //   const data = await fetch(
+  //     "https://codeforces.com/api/user.info?handles=lyhea"
+  //   );
+  //   const res = await data.json();
+  //   console.log(res);
+  //   if (res.status === "OK") {
+  //     setRating(res.result[0].rating);
+  //   }
+  // }
 
   useEffect(() => {
-    getRating();
+    // getRating();
     if (inView) {
       control.start("visible");
     } else {
@@ -50,11 +49,14 @@ function About() {
               <h1>Hello!</h1>
               <br />
               <p>
-                I'm a 4th year BSMS CS student at Georgia Tech specializing in
-                artifical intelligence and systems+architecture.
+                I'm a MS CS student at Georgia Tech specializing in interactive
+                intelligence.
+                <br />
+                I was previously a BS CS student at Georgia Tech specializing in
+                artificial intelligence and systems+architecture
                 <br />
                 <br />
-                SWE intern at <></>
+                former SWE intern at <></>
                 <a
                   href="https://flatiron.com/"
                   target="_blank"
@@ -62,9 +64,8 @@ function About() {
                 >
                   Flatiron Health
                 </a>
-                !
-                <br />
-                <br />
+                !{/* <br /> */}
+                {/* <br />
                 I'm currently getting into competitive programming and ICPC.
                 <br />
                 currently at{" "}
@@ -76,7 +77,7 @@ function About() {
                 >
                   {rating}
                 </a>{" "}
-                rating
+                rating */}
                 <br />
                 <br />
                 Other than all the tech and work stuff, I love video games,
@@ -84,9 +85,9 @@ function About() {
                 spending time with my s/o, friends, and family.
                 <br />
                 <br />
-                I also play for the Georgia Tech Competitive League of Legends
-                team as a starting adc, which mainly competes in Riot Games'
-                NACL as well as amateur leagues and tournaments.
+                I also am a Challenger mid + adc and play for the Georgia Tech
+                Competitive League of Legends team, which mainly competes in
+                Riot Games' CLOL as well as amateur leagues and tournaments.
                 <br />
                 <a
                   href="https://www.op.gg/summoners/na/lyhea"
@@ -108,6 +109,7 @@ function About() {
                 <li>TypeScript</li>
                 <li>Python</li>
                 <li>C++</li>
+                <li>C#</li>
                 <li>C</li>
               </ul>
               <h2>
