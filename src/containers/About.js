@@ -56,13 +56,13 @@ function About() {
                 artificial intelligence and systems+architecture
                 <br />
                 <br />
-                previous SWE intern at <></>
+                incoming SWE intern at <></>
                 <a
-                  href="https://flatiron.com/"
+                  href="https://workspace.google.com/products/chat/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Flatiron Health
+                  Google
                 </a>
                 !{/* <br /> */}
                 {/* <br />
